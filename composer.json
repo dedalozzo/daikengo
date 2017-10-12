@@ -1,0 +1,30 @@
+{
+    "name": "reindex/reindex",
+    "description": "The open source social network platform.",
+    "keywords": ["journal", "blog", "questions", "answers", "platform", "press", "social", "social network"],
+    "homepage": "http://reindex.xyz",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Filippo Fadda",
+            "email": "filippo.fadda@gmail.com",
+            "homepage": "http://www.linkedin.com/in/filippofadda"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "ext-phalcon": "^3.0",
+        "ext-iconv": "*",
+        "ext-mbstring": "*",
+        "sneakybobito/phalcon-stubs": "^3.0",
+        "symfony/console": "~3",
+        "symfony/process": "~3",
+        "lusitanian/oauth": "~0.8",
+        "monolog/monolog": "~1",
+        "graze/monolog-extensions": "*",
+        "filp/whoops": "~2"
+    },
+    "autoload": {
+        "psr-0": {"ReIndex\\": "src/"}
+    }
+}
