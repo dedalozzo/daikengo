@@ -8,7 +8,7 @@
 
 Daikengo
 ========
-Daikengo is an open source social network platform.
+An object oriented access control system.
 
 
 Composer Installation
