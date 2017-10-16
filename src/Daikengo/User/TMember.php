@@ -13,7 +13,7 @@ namespace Daikengo\User;
 
 use Daikengo\User\IUser;
 use Daikengo\Permission\IPermission;
-
+use Daikengo\Collection;
 
 use ToolBag\Extension;
 
@@ -22,6 +22,12 @@ use ToolBag\Extension;
  * @brief This trait implements the `IUser` interface for the `Member` class.
  * @details Use this trait when you can't extend the `Member` class since you already have a class for it in your
  * project.
+ *
+ * @cond HIDDEN_SYMBOLS
+ *
+ * @property Collection\RoleCollection $roles
+ *
+ * @endcond
  */
 trait TMember {
   use Extension\TProperty;
