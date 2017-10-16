@@ -11,7 +11,6 @@
 namespace Daikengo\Permission;
 
 
-use Daikengo\User\IUser;
 use Daikengo\Role\IRole;
 
 
