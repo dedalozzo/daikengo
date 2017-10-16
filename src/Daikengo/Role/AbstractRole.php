@@ -11,7 +11,7 @@
 namespace Daikengo\Role;
 
 
-use Daikengo\Helper\ClassHelper;
+use ToolBag\Helper\ClassHelper;
 
 
 /**
