@@ -13,7 +13,7 @@ namespace Daikengo\User;
 
 use Daikengo\User\IUser;
 use Daikengo\Permission\IPermission;
-use Daikengo\Collection;
+use Daikengo\Collection\RoleCollection;
 
 use ToolBag\Extension;
 
@@ -25,7 +25,7 @@ use ToolBag\Extension;
  *
  * @cond HIDDEN_SYMBOLS
  *
- * @property Collection\RoleCollection $roles
+ * @property RoleCollection $roles
  *
  * @endcond
  */
