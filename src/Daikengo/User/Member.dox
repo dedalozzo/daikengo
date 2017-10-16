@@ -1,7 +1,7 @@
 <?php
 
 
-namespace ReIndex\Doc;
+namespace Daikengo\User;
 
 
 class Member  {
@@ -9,18 +9,7 @@ class Member  {
   /** @name Properties */
   //!@{
 
-  string $username;  //!< The username.
-  string $firstName; //!< First name.
-  string $lastName;  //!< Last surname.
-
-  TaskCollection $tasks;         //!< A collection of tasks.
-  EmailCollection $emails;       //!< A collection of e-mails.
-  LoginCollection $logins;       //!< A collection of consumers' logins.
   RoleCollection $roles;         //!< A collection of roles associated with the member.
-  TagCollection $tags;           //!< Member's favorite tags.
-  FriendCollection $friends;     //!< A collection of all member's friendships.
-  Blacklist $blacklist;          //!< The member's blacklist.
-  FollowerCollection $followers; //!< A collection of all member's followers.
 
   string $password;                 //!< Password chosen by the member.
   string $hash;                     //!< String hash sent via e-mail to the member to confirm that his e-mail is real.
