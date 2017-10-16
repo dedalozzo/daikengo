@@ -15,12 +15,16 @@ use Daikengo\User\IUser;
 use Daikengo\Permission\IPermission;
 
 
+use ToolBag\Extension;
+
+
 /**
  * @brief This trait implements the `IUser` interface for the `Member` class.
  * @details Use this trait when you can't extend the `Member` class since you already have a class for it in your
  * project.
  */
 trait TMember {
+  use Extension\TProperty;
 
   private $roles; // Associative array [roleName => roleClass].
 
@@ -103,5 +107,19 @@ trait TMember {
   public function isMember() {
     return TRUE;
   }
+
+
+  //! @cond HIDDEN_SYMBOLS
+
+  public function getRoles() {
+    return $this->roles;
+  }
+
+
+  public function issetRoles() {
+    return isset($this->roles);
+  }
+
+  //! @endcond
 
 }
