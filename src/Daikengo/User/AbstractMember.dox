@@ -1,0 +1,16 @@
+<?php
+
+
+namespace Daikengo\User;
+
+
+abstract class AbstractMember {
+
+  /** @name Properties */
+  //!@{
+
+  RoleCollection $roles; //!< A collection of roles associated with the member.
+
+  //!@}
+
+}

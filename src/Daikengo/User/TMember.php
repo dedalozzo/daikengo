@@ -36,18 +36,6 @@ trait TMember {
 
 
   /**
-   * @copydoc IUser::getId()
-   */
-  abstract public function getId();
-
-
-  /**
-   * @copydoc IUser::match()
-   */
-  abstract public function match($id);
-
-
-  /**
    * @copydoc IUser::has()
    */
   public function has(IPermission $permission) {
