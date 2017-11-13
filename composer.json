@@ -2,7 +2,7 @@
     "name": "3f/daikengo",
     "description": "An object oriented access control system.",
     "keywords": ["acl", "permission", "role", "rbac", "access", "control", "system", "object", "oriented"],
-    "homepage": "http://reindex.xyz",
+    "homepage": "https://github.com/dedalozzo/daikengo",
     "license": "Apache-2.0",
     "authors": [
         {
