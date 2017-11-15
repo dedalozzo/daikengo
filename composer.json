@@ -13,7 +13,8 @@
     ],
     "require": {
         "php": ">=5.6.0",
-        "3f/tool-bag": "dev-master"
+        "3f/tool-bag": "~1",
+        "3f/meta": "~1"
     },
     "autoload": {
         "psr-0": {"Daikengo\\": "src/"}
