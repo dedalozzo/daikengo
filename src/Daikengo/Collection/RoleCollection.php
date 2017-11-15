@@ -11,6 +11,8 @@
 namespace Daikengo\Collection;
 
 
+use Meta\MetaCollection;
+
 use Daikengo\User\IUser;
 use Daikengo\Role\IRole;
 
