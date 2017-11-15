@@ -15,7 +15,7 @@ use Daikengo\User\IUser;
 use Daikengo\Permission\IPermission;
 use Daikengo\Collection\RoleCollection;
 
-use ToolBag\Extension;
+use Meta\Extension;
 
 
 /**
