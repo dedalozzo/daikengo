@@ -13,6 +13,7 @@ namespace Daikengo\User;
 
 use Daikengo\Role\GuestRole;
 use Daikengo\Permission\IPermission;
+use Daikengo\Collection\RoleCollection;
 
 
 /**
@@ -78,6 +79,16 @@ final class Guest implements IUser {
    */
   public function isMember() {
     return FALSE;
+  }
+
+
+  /**
+   * @brief This method is never called for this class, but in case it will return an empty collection.
+   * @return RoleCollection
+   */
+  public function getRoles() {
+    $roles = [];
+    return new RoleCollection('roles', $roles);
   }
 
 }

@@ -103,17 +103,11 @@ trait TMember {
   }
 
 
-  //! @cond HIDDEN_SYMBOLS
-
+  /**
+   * @copydoc IUser::getRoles()
+   */
   public function getRoles() {
     return $this->roles;
   }
-
-
-  public function issetRoles() {
-    return isset($this->roles);
-  }
-
-  //! @endcond
 
 }
