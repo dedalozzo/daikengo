@@ -33,7 +33,7 @@ final class System implements IUser {
 
   /**
    * @brief This implementation returns always `false`.
-   * @param[in] string $id The id to match.
+   * @param string $id The id to match.
    * @return bool
    */
   public function match($id) {

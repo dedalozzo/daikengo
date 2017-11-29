@@ -25,7 +25,7 @@ interface IUser {
 
   /**
    * @brief Returns the user id if any, otherwise `null`.
-   * @retval mixed
+   * @return mixed
    */
   function getId();
 
@@ -33,37 +33,37 @@ interface IUser {
   /**
    * @brief Returns `true` if the provided user id matches the current one, `false` otherwise.
    * @details This method is useful to check the ownership of a post, for example.
-   * @param[in] mixed $id The id to match.
-   * @retval bool
+   * @param mixed $id The id to match.
+   * @return bool
    */
   function match($id);
 
 
   /**
    * @brief Returns `true` if the provided user has the permission to execute a specific operation, `false` otherwise.
-   * @param[in] IPermission $permission A permission.
-   * @retval bool
+   * @param IPermission $permission A permission.
+   * @return bool
    */
   function has(IPermission $permission);
 
 
   /**
    * @brief Returns `true` in case the user is a guest.
-   * @retval bool
+   * @return bool
    */
   function isGuest();
 
 
   /**
    * @brief Returns `true` in case the user is a community's member.
-   * @retval bool
+   * @return bool
    */
   function isMember();
 
 
   /**
    * @brief Returns a collection of roles.
-   * @retval RoleCollection
+   * @return RoleCollection
    */
   function getRoles();
 

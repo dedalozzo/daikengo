@@ -87,7 +87,7 @@ trait TMember {
 
   /**
    * @brief This implementation returns always `false`.
-   * @retval bool
+   * @return bool
    */
   public function isGuest() {
     return FALSE;
@@ -96,7 +96,7 @@ trait TMember {
 
   /**
    * @brief This implementation returns always `true`.
-   * @retval bool
+   * @return bool
    */
   public function isMember() {
     return TRUE;

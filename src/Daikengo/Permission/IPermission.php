@@ -30,14 +30,14 @@ interface IPermission {
 
   /**
    * @brief Sets the permission's execution role.
-   * @param[in] Role::IRole $role The relative role.
+   * @param IRole $role The relative role.
    */
   function setRole(IRole $role);
 
 
   /**
    * @brief Returns the permission's execution role.
-   * @retval Role::IRole
+   * @return IRole
    */
   function getRole();
 
