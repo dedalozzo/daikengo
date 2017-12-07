@@ -32,7 +32,10 @@ use Meta\Extension;
 trait TMember {
   use Extension\TProperty;
 
-  private $roles; // Associative array [roleName => roleClass].
+  /**
+   * @var RoleCollection $roles
+   */
+  private $roles;
 
 
   /**
