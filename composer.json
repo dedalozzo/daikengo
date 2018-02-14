@@ -16,6 +16,9 @@
         "3f/tool-bag": "~1",
         "3f/meta": "~1"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^5"
+    },
     "autoload": {
         "psr-0": {"Daikengo\\": "src/"}
     }
